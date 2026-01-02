@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mineduino-survival:block/adiomantium_block"
+    }
+  }
+}

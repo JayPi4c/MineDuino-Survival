@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "mineduino-survival:adiomantium_ingot"
+    }
+  },
+  "result": {
+    "id": "mineduino-survival:adiomantium_block",
+    "count": 1
+  }
+}
