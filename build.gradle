@@ -35,8 +35,8 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
     // mineduino base mod
-    modImplementation "com.github.JayPi4c:mineduino:1.0.0"
-    include "com.github.JayPi4c:mineduino:1.0.0"
+    modImplementation "com.github.JayPi4c:mineduino:0.0.1"
+    include "com.github.JayPi4c:mineduino:0.0.1"
 }
 
 processResources {
