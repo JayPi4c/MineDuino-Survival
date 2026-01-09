@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "mineduino-survival:adiomantium_core"
+    },
+    "#": {
+      "item": "mineduino-survival:adiomantium_ingot"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#X#",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mineduino-survival:adiomantium_multitoolblade"
+  }
+}

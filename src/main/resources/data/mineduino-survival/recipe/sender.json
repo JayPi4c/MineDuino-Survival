@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mineduino-survival:adiomantium_ingot"
+    },
+    "B": {
+      "item": "mineduino-survival:adiomantium_multicore"
+    },
+    "X": {
+      "item": "mineduino-survival:adiomantium_core"
+    },
+    "#": {
+      "item": "minecraft:iron_block"
+    },
+    "*": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "X#X",
+    "***"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mineduino:sender"
+  }
+}

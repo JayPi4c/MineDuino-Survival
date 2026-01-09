@@ -9,5 +9,12 @@
   "item.mineduino-survival.adiomantium_axe": "Adiomantium Axe",
   "item.mineduino-survival.adiomantium_shovel": "Adiomantium Shovel",
   "item.mineduino-survival.adiomantium_hoe": "Adiomantium Hoe",
-  "item.mineduino-survival.adiomantium_multitool": "Adiomantium Multitool"
+  "item.mineduino-survival.adiomantium_multitool": "Adiomantium Multitool",
+  "item.mineduino-survival.adiomantium_core": "Adiomantium Core",
+  "item.mineduino-survival.adiomantium_multicore": "Adiomantium Multicore",
+  "item.mineduino-survival.adiomantium_multitoolblade": "Adiomantium Multitool Blade",
+  "item.mineduino-survival.compressed_adiomantium_core_fragment": "Compressed Adiomantium Core Fragment",
+  "item.mineduino-survival.compressed_adiomantium_core": "Compressed Adiomantium Core",
+  "item.mineduino-survival.leather_handle": "Leather Handle",
+  "item.mineduino-survival.tool_rod": "Tool Rod"
 }

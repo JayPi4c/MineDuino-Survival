@@ -1,5 +1,6 @@
 package de.jaypi4c.mineduino.survival.datagen;
 
+import de.jaypi4c.mineduino.survival.datagen.tag.MineDuinoSurvivalIncorrectForAdiomantiumTagProvider;
 import de.jaypi4c.mineduino.survival.datagen.tag.MineDuinoSurvivalMultitoolMinableTagProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -9,5 +10,6 @@ public class MineDuinoSurvivalDataGenerator implements DataGeneratorEntrypoint {
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
         pack.addProvider(MineDuinoSurvivalMultitoolMinableTagProvider::new);
+        pack.addProvider(MineDuinoSurvivalIncorrectForAdiomantiumTagProvider::new);
     }
 }

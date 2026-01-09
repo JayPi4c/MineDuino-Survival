@@ -11,9 +11,9 @@ import java.util.concurrent.CompletableFuture;
 
 import static de.jaypi4c.mineduino.survival.datagen.tag.Tags.Blocks.MULTITOOL_MINEABLE;
 
-public class MineDuinoSurvivalMultitoolMinableTagProvider extends FabricTagProvider<Block> {
+public class MineDuinoSurvivalIncorrectForAdiomantiumTagProvider extends FabricTagProvider<Block> {
 
-    public MineDuinoSurvivalMultitoolMinableTagProvider(
+    public MineDuinoSurvivalIncorrectForAdiomantiumTagProvider(
             FabricDataOutput output,
             CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, RegistryKeys.BLOCK, registriesFuture);
@@ -21,8 +21,9 @@ public class MineDuinoSurvivalMultitoolMinableTagProvider extends FabricTagProvi
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+        // here is the point to define, which blocks are NOT mineable by Adiomantium Tools
+        // For now, it's just as powerful as Diamond
         getOrCreateTagBuilder(MULTITOOL_MINEABLE)
-                .addOptionalTag(BlockTags.PICKAXE_MINEABLE)
-                .addOptionalTag(BlockTags.AXE_MINEABLE);
+                .addOptionalTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL);
     }
 }

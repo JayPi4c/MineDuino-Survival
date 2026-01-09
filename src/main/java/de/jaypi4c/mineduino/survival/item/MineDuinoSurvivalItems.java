@@ -12,6 +12,13 @@ public class MineDuinoSurvivalItems {
 
     public static final Item ADIOMANTIUM_DUST = registerItem("adiomantium_dust", new Item(new Item.Settings()));
     public static final Item ADIOMANTIUM_INGOT = registerItem("adiomantium_ingot", new Item(new Item.Settings()));
+    public static final Item ADIOMANTIUM_CORE = registerItem("adiomantium_core", new Item(new Item.Settings()));
+    public static final Item COMPRESSED_ADIOMANTIUM_CORE_FRAGMENT = registerItem("compressed_adiomantium_core_fragment", new Item(new Item.Settings()));
+    public static final Item COMPRESSED_ADIOMANTIUM_CORE = registerItem("compressed_adiomantium_core", new Item(new Item.Settings()));
+    public static final Item LEATHER_HANDLE = registerItem("leather_handle", new Item(new Item.Settings()));
+    public static final Item TOOL_ROD = registerItem("tool_rod", new Item(new Item.Settings()));
+    public static final Item ADIOMANTIUM_MULTITOOLBLADE = registerItem("adiomantium_multitoolblade", new Item(new Item.Settings()));
+    public static final Item ADIOMANTIUM_MULTICORE = registerItem("adiomantium_multicore", new Item(new Item.Settings()));
 
     // Tools
     public static final Item ADIOMANTIUM_SWORD = registerItem("adiomantium_sword", new SwordItem(MineDuinoSurvivalToolMaterial.ADIOMANTIUM, new Item.Settings()));

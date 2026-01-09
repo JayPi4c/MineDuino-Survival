@@ -22,6 +22,13 @@ public class MineDuinoSurvivalItemGroups {
                         // items
                         entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_DUST);
                         entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_INGOT);
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_CORE);
+                        entries.add(MineDuinoSurvivalItems.COMPRESSED_ADIOMANTIUM_CORE_FRAGMENT);
+                        entries.add(MineDuinoSurvivalItems.COMPRESSED_ADIOMANTIUM_CORE);
+                        entries.add(MineDuinoSurvivalItems.LEATHER_HANDLE);
+                        entries.add(MineDuinoSurvivalItems.TOOL_ROD);
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_MULTITOOLBLADE);
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_MULTICORE);
 
                         // blocks
                         entries.add(MineDuinoSurvivalBlocks.ADIOMANTIUM_BLOCK);

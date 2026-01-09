@@ -1,16 +1,16 @@
 package de.jaypi4c.mineduino.survival.tools;
 
+import de.jaypi4c.mineduino.survival.datagen.tag.Tags;
 import de.jaypi4c.mineduino.survival.item.MineDuinoSurvivalItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 
 import java.util.function.Supplier;
 
 public enum MineDuinoSurvivalToolMaterial implements ToolMaterial {
-    ADIOMANTIUM(BlockTags.INCORRECT_FOR_GOLD_TOOL, 250, 6F, 2.5F, 14, () -> Ingredient.ofItems(MineDuinoSurvivalItems.ADIOMANTIUM_INGOT));
+    ADIOMANTIUM(Tags.Blocks.INCORRECT_FOR_ADIOMANTIUM_TOOL, 250, 6F, 2.5F, 14, () -> Ingredient.ofItems(MineDuinoSurvivalItems.ADIOMANTIUM_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;
