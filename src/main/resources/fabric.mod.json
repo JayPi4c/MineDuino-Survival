@@ -19,7 +19,7 @@
       "de.jaypi4c.mineduino.survival.MineDuinoSurvival"
     ],
     "fabric-datagen": [
-      "de.jaypi4c.mineduino.survival.MineDuinoSurvivalDataGenerator"
+      "de.jaypi4c.mineduino.survival.datagen.MineDuinoSurvivalDataGenerator"
     ]
   },
   "mixins": [

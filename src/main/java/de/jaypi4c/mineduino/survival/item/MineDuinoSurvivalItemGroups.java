@@ -26,6 +26,14 @@ public class MineDuinoSurvivalItemGroups {
                         // blocks
                         entries.add(MineDuinoSurvivalBlocks.ADIOMANTIUM_BLOCK);
                         entries.add(MineDuinoSurvivalBlocks.ADIOMANTIUM_ORE);
+
+                        // tools
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_SWORD);
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_SHOVEL);
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_PICKAXE);
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_AXE);
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_HOE);
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_MULTITOOL);
                     }))
                     .build());
 
