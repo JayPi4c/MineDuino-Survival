@@ -16,5 +16,9 @@
   "item.mineduino-survival.compressed_adiomantium_core_fragment": "Compressed Adiomantium Core Fragment",
   "item.mineduino-survival.compressed_adiomantium_core": "Compressed Adiomantium Core",
   "item.mineduino-survival.leather_handle": "Leather Handle",
-  "item.mineduino-survival.tool_rod": "Tool Rod"
+  "item.mineduino-survival.tool_rod": "Tool Rod",
+  "item.mineduino-survival.adiomantium_helmet": "Adiomantium Helmet",
+  "item.mineduino-survival.adiomantium_chestplate": "Adiomantium Chestplate",
+  "item.mineduino-survival.adiomantium_leggings": "Adiomantium Leggings",
+  "item.mineduino-survival.adiomantium_boots": "Adiomantium Boots"
 }

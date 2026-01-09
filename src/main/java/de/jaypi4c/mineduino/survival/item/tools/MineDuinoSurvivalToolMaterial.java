@@ -1,4 +1,4 @@
-package de.jaypi4c.mineduino.survival.tools;
+package de.jaypi4c.mineduino.survival.item.tools;
 
 import de.jaypi4c.mineduino.survival.datagen.tag.Tags;
 import de.jaypi4c.mineduino.survival.item.MineDuinoSurvivalItems;

@@ -1,8 +1,8 @@
 package de.jaypi4c.mineduino.survival.item;
 
 import de.jaypi4c.mineduino.survival.MineDuinoSurvival;
-import de.jaypi4c.mineduino.survival.tools.MineDuinoSurvivalToolMaterial;
-import de.jaypi4c.mineduino.survival.tools.MultitoolItem;
+import de.jaypi4c.mineduino.survival.item.tools.MineDuinoSurvivalToolMaterial;
+import de.jaypi4c.mineduino.survival.item.tools.MultitoolItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -27,6 +27,21 @@ public class MineDuinoSurvivalItems {
     public static final Item ADIOMANTIUM_AXE = registerItem("adiomantium_axe", new AxeItem(MineDuinoSurvivalToolMaterial.ADIOMANTIUM, new Item.Settings()));
     public static final Item ADIOMANTIUM_HOE = registerItem("adiomantium_hoe", new HoeItem(MineDuinoSurvivalToolMaterial.ADIOMANTIUM, new Item.Settings()));
     public static final Item ADIOMANTIUM_MULTITOOL = registerItem("adiomantium_multitool", new MultitoolItem(MineDuinoSurvivalToolMaterial.ADIOMANTIUM, new Item.Settings()));
+
+    // Armor
+    public static final int ADIOMANTIUM_DURABILITY_MULTIPLIER = 15;
+    public static final Item ADIOMANTIUM_HELMET = registerItem("adiomantium_helmet", new ArmorItem(
+            MineDuinoSurvivalArmorMaterials.ADIOMANTIUM, ArmorItem.Type.HELMET,
+            new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(ADIOMANTIUM_DURABILITY_MULTIPLIER))));
+    public static final Item ADIOMANTIUM_CHESTPLATE = registerItem("adiomantium_chestplate", new ArmorItem(
+            MineDuinoSurvivalArmorMaterials.ADIOMANTIUM, ArmorItem.Type.CHESTPLATE,
+            new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(ADIOMANTIUM_DURABILITY_MULTIPLIER))));
+    public static final Item ADIOMANTIUM_LEGGINGS = registerItem("adiomantium_leggings", new ArmorItem(
+            MineDuinoSurvivalArmorMaterials.ADIOMANTIUM, ArmorItem.Type.LEGGINGS,
+            new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(ADIOMANTIUM_DURABILITY_MULTIPLIER))));
+    public static final Item ADIOMANTIUM_BOOTS = registerItem("adiomantium_boots", new ArmorItem(
+            MineDuinoSurvivalArmorMaterials.ADIOMANTIUM, ArmorItem.Type.BOOTS,
+            new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(ADIOMANTIUM_DURABILITY_MULTIPLIER))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MineDuinoSurvival.MOD_ID, name), item);

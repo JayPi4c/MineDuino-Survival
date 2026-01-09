@@ -1,6 +1,7 @@
 package de.jaypi4c.mineduino.survival;
 
 import de.jaypi4c.mineduino.survival.block.MineDuinoSurvivalBlocks;
+import de.jaypi4c.mineduino.survival.item.MineDuinoSurvivalArmorMaterials;
 import de.jaypi4c.mineduino.survival.item.MineDuinoSurvivalItemGroups;
 import de.jaypi4c.mineduino.survival.item.MineDuinoSurvivalItems;
 import de.jaypi4c.mineduino.survival.worldgen.MineDuinoSurvivalOreGen;
@@ -15,6 +16,9 @@ public class MineDuinoSurvival implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        // register before item registration
+        MineDuinoSurvivalArmorMaterials.initialize();
+
         MineDuinoSurvivalItemGroups.registerItemGroups();
         MineDuinoSurvivalItems.registerItems();
         MineDuinoSurvivalBlocks.registerBlocks();

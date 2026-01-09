@@ -41,6 +41,12 @@ public class MineDuinoSurvivalItemGroups {
                         entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_AXE);
                         entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_HOE);
                         entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_MULTITOOL);
+
+                        // armor
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_HELMET);
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_CHESTPLATE);
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_LEGGINGS);
+                        entries.add(MineDuinoSurvivalItems.ADIOMANTIUM_BOOTS);
                     }))
                     .build());
 
