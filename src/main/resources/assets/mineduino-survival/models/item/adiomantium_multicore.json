@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mineduino-survival:item/adiomantium_multicore"
+  }
+}

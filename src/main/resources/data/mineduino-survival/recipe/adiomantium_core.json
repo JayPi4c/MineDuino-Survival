@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "mineduino-survival:adiomantium_dust"
+    },
+    "*": {
+      "item": "mineduino-survival:adiomantium_ingot"
+    },
+    "+": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "#*#",
+    "*+*",
+    "#*#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mineduino-survival:adiomantium_core"
+  }
+}

@@ -3,5 +3,22 @@
   "item.mineduino-survival.adiomantium_ingot": "Adiomantium Ingot",
   "block.mineduino-survival.adiomantium_block": "Block of Adiomantium",
   "block.mineduino-survival.adiomantium_ore": "Adiomantium Ore",
-  "itemgroup.mineduino-survival.items": "MineDuino Survival"
+  "itemgroup.mineduino-survival.items": "MineDuino Survival",
+  "item.mineduino-survival.adiomantium_sword": "Adiomantium Sword",
+  "item.mineduino-survival.adiomantium_pickaxe": "Adiomantium Pickaxe",
+  "item.mineduino-survival.adiomantium_axe": "Adiomantium Axe",
+  "item.mineduino-survival.adiomantium_shovel": "Adiomantium Shovel",
+  "item.mineduino-survival.adiomantium_hoe": "Adiomantium Hoe",
+  "item.mineduino-survival.adiomantium_multitool": "Adiomantium Multitool",
+  "item.mineduino-survival.adiomantium_core": "Adiomantium Core",
+  "item.mineduino-survival.adiomantium_multicore": "Adiomantium Multicore",
+  "item.mineduino-survival.adiomantium_multitoolblade": "Adiomantium Multitool Blade",
+  "item.mineduino-survival.compressed_adiomantium_core_fragment": "Compressed Adiomantium Core Fragment",
+  "item.mineduino-survival.compressed_adiomantium_core": "Compressed Adiomantium Core",
+  "item.mineduino-survival.leather_handle": "Leather Handle",
+  "item.mineduino-survival.tool_rod": "Tool Rod",
+  "item.mineduino-survival.adiomantium_helmet": "Adiomantium Helmet",
+  "item.mineduino-survival.adiomantium_chestplate": "Adiomantium Chestplate",
+  "item.mineduino-survival.adiomantium_leggings": "Adiomantium Leggings",
+  "item.mineduino-survival.adiomantium_boots": "Adiomantium Boots"
 }
